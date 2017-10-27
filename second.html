@@ -1,0 +1,59 @@
+<html>
+    
+    <head>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+    </head>
+    
+    <body>
+      <div id="emptyDiv"></div>
+      <div id="description"></div>
+      <!--container start-->
+      <div id="container">
+        <div id="container_body">
+          <div>
+            <h2 class="form_title">User Registration Form Demo</h2>
+            <p class="head_para">Form Validated Using Javascript</p>
+          </div>
+          <!--Form  start-->
+          <div id="form_name">
+            <div class="firstnameorlastname">
+              <form name="form">
+                <div id="errorBox"></div>
+                <input type="text" name="Name" value="" placeholder="First Name" class="input_name">
+                <input type="text" name="LastName" value="" placeholder="Last Name" class="input_name">
+    
+            </div>
+            <div id="email_form">
+              <input type="text" name="Email" value="" placeholder="Your Email" class="input_email">
+            </div>
+            <div id="Re_email_form">
+              <input type="text" name="enterEmail" value="" placeholder="Re-enter Email" class="input_Re_email">
+            </div>
+            <div id="password_form">
+              <input type="password" name="Password" value="" placeholder="New Password" class="input_password">
+            </div>
+            <!--birthday details start-->
+            <div>
+                Birthday:<input type="date" name="bday">
+              </div>
+            <!--birthday details ends-->
+            <div id="radio_button">
+              <input type="radio" name="radiobutton" value="Female">
+              <label>Female</label>
+              &nbsp;&nbsp;&nbsp;
+              <input type="radio" name="radiobutton" value="Male">
+              <label>Male</label>
+            </div>
+            <div>
+              <p id="sign_user" onClick="Submit()">Sign Up </p>
+            </div>
+            </form>
+          </div>
+          <!--form ends-->
+        </div>
+      </div>
+      <!--container ends-->
+    </body>
+    
+    </html>
